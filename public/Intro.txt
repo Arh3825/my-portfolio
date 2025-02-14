@@ -1,0 +1,10 @@
+Hey this is my first website!
+I am completely teaching myself and I want to make it so that I can see the progress I make as a frontend developer. Please be gentle I am still learning :)
+
+Things to do still!
+- Move the fricken text over (02/14/25)
+- Add a clicker game
+- Create an about me section
+- Create a github link
+- Create a place where people can leave comments!
+- Create a task board for all my tasks
