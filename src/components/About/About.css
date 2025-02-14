@@ -11,6 +11,7 @@
   font-family: 'Snow';
   font-size: 60px;
   margin-bottom: 5px;
+  margin-top: 30px;
   width: 100%;
 }
 
@@ -28,11 +29,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1500px;
   text-align: center;
   height: auto;
   gap: 30px;
-  margin-left: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
 
 }
 
