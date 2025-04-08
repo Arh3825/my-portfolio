@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return(
-    <Router basename="portfolio">{my-portfolio}
+    <Router basename="/my-portfolio">
       <Routes>
         <Route element={<Layout />}>
           <Route path = "/" element={<Welcome />} />
