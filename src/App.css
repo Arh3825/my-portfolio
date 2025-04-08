@@ -1,23 +1,42 @@
+/*Added Fonts*/
+
 @font-face {
   font-family: 'Ochi';
-  src: url('../public/fonts/Ochi-Regular.ttf') format('truetype');
+  src: url('/fonts/Ochi-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Snow';
-  src: url('../public/fonts/Magical Snow.ttf') format('truetype');
+  src: url('/fonts/Magical Snow.ttf') format('truetype');
 }
 
 
 @font-face {
   font-family: 'Mochi';
-  src: url('../public/fonts/Mochibun-Regular.ttf') format('truetype');
+  src: url('/fonts/Mochibun-Regular.ttf') format('truetype');
 }
 
-body, html {
-  color: white;
-  height: 100%;
+@font-face {
+  font-family: 'Aston';
+  src: url('/fonts/Aston Script.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Caviar';
+  src: url('/fonts/CaviarDreams.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Caviar';
+  src: url('/fonts/CaviarDreams_Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html, body {
   margin: 0;
   padding: 0;
-  background-color: rgb(176, 224, 174);
+  height: 100%;
 }

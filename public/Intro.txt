@@ -1,12 +1,8 @@
-Hey this is my first website!
+Hello, My name is Ali!
 I am teaching myself React, JavaScript, CSS, and HTML.
-I want to make this website so I can see the progress as a frontend developer.
-Please be gentle I am still learning :)
+I started this website in order to learn frontend development
+Please be gentle I am still learning.
 
-Things to do still!
-- Move the fricken text over (02/14/25)
-- Add a clicker game
-- Create an about me section
-- Create a github link
-- Create a place where people can leave comments!
-- Create a task board for all my tasks
+Things I have learned so far!
+- Taking photos from online to put on my website
+- 
