@@ -1,5 +1,0 @@
-Hello my name is Ali!
----
-A creative developer passionate about learning!
-──────────
-I created this website to showcase what I have learned about front end development!
