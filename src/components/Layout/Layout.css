@@ -1,3 +1,11 @@
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 /*Navigation Bar*/
 .nav-bar{
     position: fixed;
@@ -21,7 +29,7 @@
   }
   
   .nav-bar a{
-    font-family: "Caviar";
+    font-family: "Nunito";
     text-decoration: none;
     color: white;
     font-size: 25px;

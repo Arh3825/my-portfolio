@@ -1,25 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import headshot from './headshot.png'
 import './Welcome.css';
 
 const Welcome = () => {
-  const [Intro, setIntro] = useState("");
-    useEffect(() => {
-      fetch("/Intro.txt")
-        .then((res) => res.text())
-        .then((text) => setIntro(text));
-    }, []);
-
-  const[leftText, rightText] = Intro.split("---");
-
   return(
     <div className="about-wrapper">
       <header>
-        <h1 className="welcome"> Welcome </h1>
+        <h1 className="welcome"> Alison </h1>
       </header>
       <img src={headshot} alt="My Headshot" className="avatar" />
-      <div className="leftText">{leftText}</div>
-      <div className="rightText">{rightText}</div>
+      <div className="leftText">
+        <p>Hello my name is Ali!</p>
+      </div>
+      <div className="rightText">
+        <p>A creative developer passionate about learning!<br />
+          ──────────<br />
+          I created this website to showcase what I have learned about front end development!</p>
+      </div>
     </div>
   );
 };
