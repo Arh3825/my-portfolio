@@ -35,6 +35,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Adelia';
+  src: url('/fonts/adelia.ttf') format('truetype');
+}
+
 html, body {
   margin: 0;
   padding: 0;

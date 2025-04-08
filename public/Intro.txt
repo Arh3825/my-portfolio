@@ -1,8 +1,5 @@
-Hello, My name is Ali!
-I am teaching myself React, JavaScript, CSS, and HTML.
-I started this website in order to learn frontend development
-Please be gentle I am still learning.
-
-Things I have learned so far!
-- Taking photos from online to put on my website
-- 
+Hello my name is Ali!
+---
+A creative developer passionate about learning!
+──────────
+I created this website to showcase what I have learned about front end development!

@@ -2,8 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  color: rgb(65, 58, 47);
-  background: rgb(226, 218, 201);
+  background: rgb(236, 207, 173);
   overflow: hidden;
   margin: 0;
 }
@@ -20,8 +19,9 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -30%);
-  font-family: "Aston";
-  font-size: 10vw;
+  font-family: "Adelia";
+  color: rgb(219, 191, 158);
+  font-size: 20vw;
   text-align: center;
 
   /*Debugging*/
@@ -33,15 +33,15 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -60%);
   z-index: 2;
 
   /*Dimentions of the photo*/
-  width: 30vw;
+  width: 35vw;
   max-width: 2560px;
   min-width: 600px;
   height: auto;
-  border-radius: 30%;
+  border-radius: 50%;
 }
 
 /* screen size testing */
@@ -54,3 +54,35 @@ h1 {
   }   
 }
 */
+
+/* Intro Blurb Formatting */
+.leftText {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translate(20%, -70%);
+  font-family: "Caviar", sans-serif;
+  color: rgb(73, 60, 39);
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: pre-wrap;
+  max-width: 500px;
+  z-index: 3;
+}
+
+.rightText {
+  position: absolute;
+  top: 32%;
+  right: 3%;
+  transform: translate(10%, -20%);
+  font-family: "Caviar", sans-serif;
+  color: rgb(73, 60, 39);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  white-space: pre-wrap;
+  line-height: 1.2;
+  max-width: 700px;
+  z-index: 3;
+}
