@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Projects = () => {
-    return <h2>About Page</h2>;
+    return(
+      <p>WIP</p>
+    )
   };
   
   export default Projects;
