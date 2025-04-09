@@ -4,7 +4,7 @@ import './Welcome.css';
 
 const Welcome = () => {
   return(
-    <div className="about-wrapper">
+    <div className="welcome-wrapper">
       <header>
         <h1 className="welcome"> Alison </h1>
       </header>
