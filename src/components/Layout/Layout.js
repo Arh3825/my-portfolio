@@ -10,8 +10,6 @@ const Layout = () => {
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
-                    <li><Link to="/projects">What I have Learned</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </footer>
         </>

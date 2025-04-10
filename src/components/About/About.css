@@ -58,9 +58,8 @@ h2 {
 .about-header{
     padding-top: 10%;
     padding-left: 5%;
-    padding-bottom: -4%;
     font-family: "Nunito";
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin: 0;
 }
 
@@ -71,7 +70,7 @@ h2 {
     gap: 6rem;
     align-items: center;
     max-width: 90vw;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     font-family: "Nunito", sans-serif;
     white-space: pre-wrap;
 }
@@ -94,8 +93,24 @@ h2 {
 }
 
 .image1, .image2{
-    width: 20vw;
+    width: 25vw;
     height: auto;
     border-radius: 2px;
     object-fit: contain;
+}
+
+@media (max-width: 1800px) {
+  .about-body1, .about-body2{
+    font-size: 1.5rem;
+  }
+
+  .image1, .image2{
+    width: 20em;
+  }
+  .about-header{
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 7vw;
+  }
 }
